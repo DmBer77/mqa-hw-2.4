@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.netology.qa.UIAutomatorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-02-07T07:55:52" hostname="KOMSOMOL" time="5.578">
+  <properties/>
+  <testcase name="changeTextInTextField()" classname="ru.netology.qa.UIAutomatorTest" time="2.496"/>
+  <testcase name="showTextOnNewActivity()" classname="ru.netology.qa.UIAutomatorTest" time="3.08"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[февр. 07, 2023 10:55:52 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
