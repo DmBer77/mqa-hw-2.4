@@ -18,7 +18,7 @@ import static org.openqa.selenium.remote.CapabilityType.PLATFORM_NAME;
 class UIAutomatorTest {
 
     private AppiumDriver driver;
-    public String inputText = "Hello";
+    public String inputText = "hello";
 
 
     @BeforeAll
@@ -35,9 +35,10 @@ class UIAutomatorTest {
     @Test
     public void changeTextInTextField() {
         MainScreen mainScreen = new MainScreen(driver);
-        mainScreen.textTest.setValue(inputText);
+        String expected = mainScreen.textField.getText();
+        mainScreen.textTest.setValue(" ");
         mainScreen.buttonChange.click();
-        Assertions.assertEquals(inputText, mainScreen.textField.getText());
+        Assertions.assertEquals(expected, mainScreen.textField.getText());
     }
 
     @Test
